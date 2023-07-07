@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>회원가입</title>
+  <link rel="stylesheet" href="signIn.css">
+</head>
+<body>
+  <div id="logo">
+    <svg width="172" height="68" viewBox="0 0 172 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M8 54.0513C3.58172 54.0513 0 50.4696 0 46.0513V21.9487C0 17.5305 3.58173 13.9487 8.00001 13.9487H18.2344C20.7585 13.9487 23.1972 15.1086 24.3838 17.3364C26.8695 22.0029 28.3516 27.8839 28.3516 34.2747C28.3516 40.3374 27.0177 45.9414 24.7585 50.4849C23.6 52.815 21.0953 54.0513 18.4931 54.0513H8Z" fill="black" fill-opacity="0.95"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9443 54.0513C9.52606 54.0513 5.94434 50.4696 5.94434 46.0513V21.9487C5.94434 17.5305 9.52607 13.9487 13.9443 13.9487H29.6897C31.9343 13.9487 34.1273 14.8568 35.4067 16.7011C38.7105 21.4638 40.698 27.5904 40.698 34.2747C40.698 40.624 38.9047 46.4701 35.8935 51.1219C34.6299 53.074 32.3643 54.0513 30.039 54.0513H13.9443Z" fill="black" fill-opacity="0.7"/>
+      <path d="M50.8856 62V17.2H67.5896C71.8776 17.2 75.6856 18.096 79.0136 19.888C82.3629 21.6587 84.9869 24.2187 86.8856 27.568C88.7842 30.896 89.7336 34.9067 89.7336 39.6C89.7336 44.2933 88.7842 48.3147 86.8856 51.664C84.9869 54.992 82.3629 57.552 79.0136 59.344C75.6856 61.1147 71.8776 62 67.5896 62H50.8856ZM58.3096 55.344H67.5896C70.6829 55.344 73.2642 54.704 75.3336 53.424C77.4029 52.1227 78.9602 50.2987 80.0056 47.952C81.0722 45.584 81.6056 42.8 81.6056 39.6C81.6056 36.4 81.0722 33.6267 80.0056 31.28C78.9602 28.912 77.4029 27.088 75.3336 25.808C73.2642 24.5067 70.6829 23.856 67.5896 23.856H58.3096V55.344ZM99.0556 62V17.2H127.248V24.24H106.608V35.088H122.768V42.128H106.608V54.96H127.856V62H99.0556ZM148.11 62L132.142 17.2H139.726L152.59 53.808H150.862L163.79 17.2H171.374L155.374 62H148.11Z" fill="black"/>
+    </svg>
+  </div>
+  <fieldset>
+    <div id="signInInfo">
+      <input id="id" class="textInp" placeholder="아이디를 입력하세요.">
+      <input id="password" class="textInp" type="password" placeholder="비밀번호를 입력하세요.">
+      <input id="pwAgain" class="textInp" type="password" placeholder="비밀번호를 재입력하세요.">
+    </div>
+    <div id="profile">
+      <input id="name" class="textInp" placeholder="이름을 입력하세요.">
+      <div id="email">
+        <input id="mail" class="textInp" placeholder="이메일을 입력하세요.">
+        <select id="emailType" class="textInp">
+          <option value="none">직접입력</option>
+          <option value="gmail">@ gmail.com</option>
+          <option value="naver">@ naver.com</option>
+        </select>
+      </div>
+      <div id="inzeng">
+        <input id="num" class="textInp" placeholder="인증번호를 입력하세요.">
+        <button>재전송</button>
+      </div>
+    </div>
+    <div id="btns">
+      <button id="signIn">가입하기</button>
+      <button id="cancel">취소</button>
+    </div>
+  </fieldset>
+</body>
+</html>
