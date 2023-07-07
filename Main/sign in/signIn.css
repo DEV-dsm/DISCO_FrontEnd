@@ -1,0 +1,74 @@
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+fieldset {
+  border: 0;
+}
+fieldset > * {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#signInInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#profile {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+/**인풋에 사용*/
+.textInp {
+  padding: 1.5% 2%;
+  background-color: #F2F5FA;
+  border-radius: 5px;
+  border: 0;
+}
+.textInp:focus {
+  outline: none;
+}
+.textInp::placeholder {
+  color: #818181;
+}
+/**여기까지*/
+button {
+  padding: 1%;
+  border: 0;
+  background-color: #4E71B5;
+  color: #fff;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+fieldset > div {
+  margin: 30px 0;
+  padding: 0 30%;
+}
+fieldset > div > * {
+  margin: 10px 0;
+}
+#email {
+  display: flex;
+}
+#email > .textInp {
+  margin: 0 0.5%;
+}
+#mail {
+  flex-grow: 1;
+}
+#inzeng {
+  display: flex;
+}
+#inzeng > .textInp {
+  flex-grow: 1;
+}
+#inzeng > * {
+  margin: 0 0.5%;
+}
+#btns {
+  display: flex;
+  flex-direction: column;
+}
