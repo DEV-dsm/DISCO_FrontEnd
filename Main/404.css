@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.boxs {
+  border: 2px solid #6986a9;
+  width: 450px;
+  height: 200px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+h1 {
+  font-size: 60px;
+  color: #071b44;
+}
+
+p {
+  margin: 15px;
+  font-size: 10px;
+  font-weight: bold;
+}
