@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+  color: #263f70;
+  font-size: 64px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.input {
+  margin: 20px;
+}
+
+.i {
+  display: flex;
+  justify-content: center;
+}
+
+.Id {
+  margin-top: 41px;
+}
+
+.Pw {
+  margin-top: 22px;
+}
+
+.style {
+  background-color: #f2f5fa;
+  font-size: 20px;
+  width: 534.943px;
+  height: 45.445px;
+  border: 0;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 46px;
+}
+
+.inputButton {
+  width: 574.422px;
+  height: 40.835px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #4e71b5;
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.S {
+  display: flex;
+  justify-content: center;
+}
+
+.member {
+  margin-top: 19px;
+}
+
+.searchIdPw {
+  margin-top: 11px;
+}
+
+b {
+  padding-left: 10px;
+  cursor: pointer;
+}
